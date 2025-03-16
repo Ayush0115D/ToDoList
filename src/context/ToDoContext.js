@@ -9,7 +9,7 @@ export const TodoContext=createContext({
     }
     ],
      addTodo:(todo)=>{},  //methods and value...functionality app.jsx me likhege
-     updatedTodo:(id,todo0)=>{},
+     updateTodo:(id,todo0)=>{},
      deleteTodo:(id) => {},
      toggleComplete:(id)=>{}
 })
